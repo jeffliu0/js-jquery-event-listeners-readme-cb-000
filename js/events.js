@@ -7,9 +7,9 @@ function getIt(){
 }
 
 function frameIt(){
-  $('img').on('load', function(){
+  $('p').on('load', function(){
   //actions you want to happen
-  $('img').append('.tasty')
+  $('img').addClass('tasty')
   })
 }
 
